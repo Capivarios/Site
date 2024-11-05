@@ -15,13 +15,12 @@
                 <ul> <!--Listagens-->
                     <li><a href="#sobre">Sobre mim</a></li>
                     <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contatos">Contatos</a></li>
-                    <li><a href="https://google.com.br" target="_blank">Goglis</a></li>
+                    <li><a href="#contatos">Contatos</a></li>                   
                 </ul>
             </nav>
 
         </header>
-        <section id="sobre"> 
+        <section id="sobre">
             <h2>Asneira sobre mim</h2>
 
             <img src="https://avatars.fastly.steamstatic.com/936506d53bf8e4b39dd00ac3bbe71d4cf43b5251_full.jpg"
@@ -50,7 +49,8 @@
                     <h4>Cardápio</h4>
 
                     <p>
-                        Primeira tentativa de sair do mercado do trabalho e virar MEI. Mente vazia, oficina do ócio. Resolvi fazer um site pique Rogerim
+                        Primeira tentativa de sair do mercado do trabalho e virar MEI. Mente vazia, oficina do ócio.
+                        Resolvi fazer um site pique Rogerim
                     </p>
 
 
@@ -58,54 +58,83 @@
 
             </section>
 
+            <section id="habilidades">
+                <h2>Ó o que eu sei fazer</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Nivel</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Iniciante</td>
+                            <td>Faço uns bagulhinho aparecer na tela</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Python</td>
+                            <td>Vergonha</td>
+                            <td>Tentei Back-End, deu errado.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+              
+            </section>
+
 
         </section>
 
         <footer>
             <p>Direitos ortogados a mim pela providência divina, vacila não ein!</p>
-            
+
             <section id="contatos">
-                <h2>Contatos</h2>
+                <h2>Contato</h2>
 
                 <p>Alguma ideia? Liga nóix.</p>
 
                 <address>
-                    E-mail: <a href="mailto:emaillegalaquita@gmail.com">emaillegalaquita@gmail.com</a> <br>
-                    Telefone: <a href="tel:4002-8922">4002-8922</a>
-                    
-                   <form action="">
 
-                    <label for="nome">Teu vulgo:</label>
-                    <input type="text" id="nome" name="nome"> <br>
+                    <form action="">
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email"> <br>
+                        <label for="nome">Teu vulgo:</label>
+                        <input type="text" id="nome" name="nome" required> <br>
 
-                    <label for="Telefone">Celfone acui:</label>
-                    <input type="tel" id="Telefone" name="Telefone"> <br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email"> <br>
 
-                    <label for="assunto">Motivo:</label>
-                    <select name="assunto" id="assunto">
-                        <option value="ofensa">Ofensa Gratuita</option>
-                        <option value="sugestão">Desmotivar-me</option>
-                        <option value="demais assuntos">Só entrosar mesmo</option>       
-                        
-                    </select> 
-                    <br>
+                        <label for="Telefone">Celfone acui:</label>
+                        <input type="tel" id="Telefone" name="Telefone" required> <br>
+
+                        <label for="assunto">Motivo:</label>
+                        <select name="assunto" id="assunto" required>
+                            <option value="ofensa">Ofensa Gratuita</option>
+                            <option value="sugestão">Desmotivar-me</option>
+                            <option value="demais assuntos">Só entrosar mesmo</option>
+
+                        </select>
+                        <br>
 
 
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" ></textarea> <br>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea> <br>
 
-                    <input type="checkbox" id="inscricao" name="inscricao">
-                    <label for="inscricao">Quer ficar ligado nos troço tudo? Marca ai jaguara.</label>
+                        <input type="checkbox" id="inscricao" name="inscricao">
+                        <label for="inscricao">Quer ficar ligado nos troço tudo? Marca ai jaguara.</label>
 
-                    <br>
+                        <br>
 
-                    <input type="submit" value="Enviar mensagem">
-                    
+                        <input type="submit" value="Enviar mensagem">
 
-                   </form> 
+
+                    </form>
                 </address>
             </section>
         </footer>
